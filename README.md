@@ -9,7 +9,9 @@ Provide the target URL as a query parameter (URL-encoded).
 - *Process:*
 
 i. The server launches Puppeteer with necessary options for cloud deployment.
+
 ii. It navigates to the provided URL and waits for the network to be idle.
+
 iii. The full HTML content of the page is fetched and returned as the response.
 
 ## Deploying to Render.com
